@@ -1,10 +1,10 @@
 # Sistema Inteligente de Rutas de Transporte Masivo
 
-## 📋 Descripción General
+##  Descripción General
 
 Sistema inteligente desarrollado en Python que utiliza **reglas lógicas** y **algoritmos de búsqueda** para encontrar la mejor ruta de transporte masivo entre dos puntos (A y B), optimizando según diferentes criterios como tiempo, costo y distancia.
 
-## 🏗️ Arquitectura del Sistema
+##  Arquitectura del Sistema
 
 El sistema está compuesto por tres componentes principales:
 
