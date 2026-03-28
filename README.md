@@ -147,7 +147,7 @@ Cuando se busca una ruta, el sistema retorna:
 }
 ```
 
-## 🚀 Cómo usar
+##  Cómo usar
 
 ### Ejecutar el programa completo
 
@@ -206,7 +206,7 @@ h(n) = Distancia_Euclidiana / Velocidad_Estimada
 ✓ Más eficiente que Dijkstra en espacios grandes
 ✓ Admisible (nunca sobrestima)
 
-## 🧠 Reglas Lógicas Implementadas
+##  Reglas Lógicas Implementadas
 
 ### Regla 1: Conectividad Directa
 ```
@@ -226,7 +226,7 @@ SI cuenta_líneas(estación) > 1
 ENTONCES (es_punto_transferencia(estación))
 ```
 
-## 🛠️ Funcionalidades Principales
+##  Funcionalidades Principales
 
 | Función | Descripción | Ejemplo |
 |---------|-------------|---------|
@@ -237,7 +237,7 @@ ENTONCES (es_punto_transferencia(estación))
 | `agregar_estacion()` | Añade nueva estación | `bc.agregar_estacion('Nueva', (5, 5))` |
 | `agregar_linea()` | Añade nueva línea de transporte | `bc.agregar_linea('Roja', [...], 2, 2500)` |
 
-## 📈 Ejemplos de Uso
+##  Ejemplos de Uso
 
 ### Ejemplo 1: Búsqueda por tiempo mínimo
 ```python
@@ -259,14 +259,14 @@ print(f"Transferencias: {resultado['transferencias']}")
 print(f"Líneas: {resultado['lineas_utilizadas']}")
 ```
 
-## 🔍 Análisis de Complejidad
+##  Análisis de Complejidad
 
 - **Complejidad Espacial**: O(V + E) donde V=estaciones, E=conexiones
 - **Complejidad Temporal**: O((V + E) log V) para A*
 - **Base de Conocimiento**: O(1) acceso a hechos
 - **Inferencia**: O(n²) en el peor caso (n=número de estaciones)
 
-## 📝 Archivos del Proyecto
+##  Archivos del Proyecto
 
 ```
 python_Actividad2/
@@ -277,7 +277,7 @@ python_Actividad2/
 └── README.md                 # Esta documentación
 ```
 
-## 🎯 Casos de Uso
+##  Casos de Uso
 
 1. **Planificación de viajes**: Encontrar la ruta más rápida
 2. **Optimización de costos**: Encontrar la ruta más económica
@@ -285,7 +285,7 @@ python_Actividad2/
 4. **Análisis de transferencias**: Identificar cambios de línea necesarios
 5. **Planificación urbana**: Analizar puntos críticos del transporte
 
-## 🔮 Extensiones Posibles
+##  Extensiones Posibles
 
 - Incluir horarios y disponibilidad de buses
 - Añadir restricciones de accesibilidad
@@ -293,17 +293,3 @@ python_Actividad2/
 - Incorporar preferencias de usuario (no usar cierta línea, etc.)
 - Análisis de congestión
 - Sistema de recomendaciones
-
-## 📌 Notas Importantes
-
-- El sistema utiliza **reglas lógicas declarativas**, no procedurales
-- El motor de inferencia es **completo**: encuentra todos los hechos derivables
-- A* es **óptimo**: siempre encuentra la mejor ruta
-- Las heurísticas son **admisibles**: nunca sobrestiman el costo real
-
-## 👨‍💻 Autor
-Sistema desarrollado como solución a problema de búsqueda inteligente de rutas
-
----
-
-**¡Bienvenido al futuro del transporte inteligente!** 🚌✨
